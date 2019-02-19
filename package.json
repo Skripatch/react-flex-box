@@ -1,0 +1,27 @@
+{
+  "name": "react-flex-box",
+  "version": "1.0.0",
+  "description": "React component for all you flex stuff",
+  "main": "src/index.js",
+  "repository": "git@github.com:Skripatch/react-flex-box.git",
+  "author": "Yuri Friedberg",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
+}
