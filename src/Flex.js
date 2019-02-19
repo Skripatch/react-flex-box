@@ -1,8 +1,8 @@
 import React from 'react';
 
 const TAG_NAME = 'div';
-const CONTAINER = 'row-flexStart-flexStart';
-const ITEM = '1-1-auto';
+const CONTAINER = 'row_flex-start_flex-start';
+const ITEM = '1_1_auto';
 const EMPTY = '';
 export const Flex = ({
   className,
@@ -14,8 +14,8 @@ export const Flex = ({
   ...props,
 }) => {
   const TagName = tagName;
-  const [ flexDirection, justifyContent, alignItems, flexWrap ] = container.split('-');
-  const [ flexGrow, flexShrink, flexBasis, justifySelf, alignSelf ] = item.split('-');
+  const [ flexDirection, justifyContent, alignItems, flexWrap ] = container.toLowerCase().split('_');
+  const [ flexGrow, flexShrink, flexBasis, justifySelf, alignSelf ] = item.toLowerCase().split('_');
   const display = container !== EMPTY ? 'flex' : 'initial';
   const combinedStyles = {
     display,

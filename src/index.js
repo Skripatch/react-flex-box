@@ -8,9 +8,9 @@ const App = () => {
   const [ name ] = React.useState('React');
 
   return (
-    <Flex container="row-center-center-nowrap" className="containerWithPadding">
+    <Flex container="row_center_center_nowrap" className="containerWithPadding">
       <Hello name={name} />
-      <Flex tagName="p" item="0-0-30%" className="containerWithPadding">Please tell me why I am bad?</Flex>
+      <Flex tagName="p" item="0_0_30%" className="containerWithPadding">Please tell me why I am bad?</Flex>
     </Flex>
   );
 };

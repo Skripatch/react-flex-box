@@ -18,7 +18,7 @@ It has no dependencies other than React
     * alignItems
     * flexWrap
 
-* item: string - kebab-case string that contains css values for flex item properties in this order
+* item: string - snake-case string that contains css values for flex item properties in this order
     * flexGrow
     * flexShrink
     * flexBasis
@@ -34,9 +34,9 @@ It has no dependencies other than React
 
 ## Example:
 ```jsx
-<Flex container="row-center-center-nowrap">
-  <Flex tagName="h1" item="1-1-auto">Hello World</Flex>
-  <Flex tagName="h6" item="0-0-auto">February 19, 2019</Flex>
+<Flex container="row_center_center_nowrap">
+  <Flex tagName="h1" item="1_1_auto">Hello World</Flex>
+  <Flex tagName="h6" item="0_0_auto">February 19, 2019</Flex>
 </Flex>
 ```
 [Demo Page](https://skripatch.github.io/react-flex-box/build/)
