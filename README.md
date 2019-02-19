@@ -4,9 +4,12 @@ One React component to rule them flexboxes.
 !!!This is a POC!!!
 This project is inspired by atomic css concept and by a will to make our css cleaner and more reusable.
 
-It is single react component - <Flex>
+It is single react component - "\<Flex\>"
+
 It renders it`s children
+
 It has no dependencies other than React
+
 
 ## props: 
 * container: string - kebab-case string that contains css values for flex container properties in this order
