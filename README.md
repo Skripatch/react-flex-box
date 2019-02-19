@@ -12,13 +12,13 @@ It has no dependencies other than React
 
 
 ## props: 
-* container: string - kebab-case string that contains css values for flex container properties in this order
+* container: string - snake_case string that contains css values for flex container properties in this order
     * flexDirection
     * justifyContent
     * alignItems
     * flexWrap
 
-* item: string - snake-case string that contains css values for flex item properties in this order
+* item: string - snake_case string that contains css values for flex item properties in this order
     * flexGrow
     * flexShrink
     * flexBasis
