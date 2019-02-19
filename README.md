@@ -13,18 +13,24 @@ It has no dependencies other than React
 
 ## props: 
 * container: string - kebab-case string that contains css values for flex container properties in this order
-.* flexDirection
-.* justifyContent
-.* alignItems
-.* flexWrap
+    * flexDirection
+    * justifyContent
+    * alignItems
+    * flexWrap
 
 * item: string - kebab-case string that contains css values for flex item properties in this order
-.* flexGrow
-.* flexShrink
-.* flexBasis
-.* flexWrap
-.* justifySelf
-.* alignSelf
+    * flexGrow
+    * flexShrink
+    * flexBasis
+    * flexWrap
+    * justifySelf
+    * alignSelf
+    
+* tagName: string - the html tag to render (default is div)
+
+* className
+
+* style
 
 ## Example:
 ```jsx
