@@ -33,4 +33,5 @@ It has no dependencies other than React
   <Flex tagName="h6" item="0-0-auto">February 19, 2019</Flex>
 </Flex>
 ```
+[Demo Page](https://skripatch.github.io/react-flex-box/build/)
 
